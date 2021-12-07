@@ -29,7 +29,8 @@ module.exports = function (grunt) {
             dev: {
                 bsFiles: {
                     src: [
-                        'public/css/*.css'
+                        'public/css/*.css',
+                        '*.php'
                     ]
                 },
                 options: {
